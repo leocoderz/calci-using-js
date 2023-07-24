@@ -1,0 +1,61 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, div, button, input {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color for the body */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the calculator on the page */
+  .card {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the input field */
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the buttons */
+  button {
+    padding: 8px 15px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  /* Style the equals button */
+  button#equals {
+    background-color: #007BFF;
+  }
+  
+  /* Style the reload button */
+  button#reload {
+    background-color: #dc3545;
+  }
+  
+  /* Display area for the result */
+  #demo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  .transparent-background {
+    background-color: rgba(255, 0, 0, 0.5); /* Change the last value (alpha) to control transparency */
+  }
